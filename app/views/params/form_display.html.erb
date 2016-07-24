@@ -1,0 +1,15 @@
+<%= form_tag '/form_result', method: :post do %>
+
+  <div>
+    <%= label_tag :blue, "stuff" %>
+    <%= text_field_tag :blue %>
+  </div>
+  <div>
+    <%= label_tag :next_message, "Next Message" %>
+    <%= text_field_tag :next_message %>
+  </div>
+  <div>
+    <%= submit_tag "Send" %>    
+  </div>
+
+<% end %>
